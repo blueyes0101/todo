@@ -57,15 +57,6 @@ If you want to learn more about building native executables, please consult <htt
 
 - REST Jackson ([guide](https://quarkus.io/guides/rest#json-serialisation)): Jackson serialization support for Quarkus REST. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it
 
-## Provided Code
-
-### REST
-
-Easily start your REST Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
-
-
 ## HTTP TEST 
 
 :: 1) Add (POST)
@@ -79,4 +70,15 @@ http PUT :8080/todos/1/done value==true
 
 :: 4) Delete (DELETE)
 http DELETE :8080/todos/1
+
+## Provided Code
+
+### REST
+
+Easily start your REST Web Services
+
+[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+
+
 
